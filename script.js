@@ -35,7 +35,7 @@ var interval;
 var settings={
     duration:'1000',
     random : false
-}
+};
 
 init(settings);
 
@@ -67,7 +67,7 @@ document.querySelectorAll('.arrow').forEach(function(item){
 document.querySelectorAll('.arrow').forEach(function(item){
     item.addEventListener('mouseleave',function(){
         init(settings);
-    })
+    });
 });
 
 
