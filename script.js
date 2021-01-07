@@ -35,7 +35,7 @@ var interval;
 var settings={
     duration:'1000',
     random : false
-}
+};
 
 init(settings);
 
