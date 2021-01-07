@@ -67,7 +67,7 @@ document.querySelectorAll('.arrow').forEach(function(item){
 document.querySelectorAll('.arrow').forEach(function(item){
     item.addEventListener('mouseleave',function(){
         init(settings);
-    })
+    });
 });
 
 
